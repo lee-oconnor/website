@@ -15,7 +15,7 @@ img {
   margin: auto;
   width: 20%;
   padding: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .paragraph {
@@ -37,6 +37,7 @@ img {
 a {
     text-decoration: none;
     color: dimgrey;
+    font-size: 16px;
 }
 
 a:hover {
