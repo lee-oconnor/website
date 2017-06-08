@@ -35,11 +35,20 @@ img {
 }
 
 a {
-    text-decoration: none;
-    color: dimgrey;
-    font-size: 16px;
+  text-decoration: none;
+  color: dimgrey;
+  font-size: 16px;
 }
 
 a:hover {
   color: hotpink;
+}
+
+.homepage-link {
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+.gallery-link {
+  margin-left: 15px;
 }
