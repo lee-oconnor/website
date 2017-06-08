@@ -2,6 +2,10 @@ html {
   background-color: #F4E3F2;
 }
 
+.wrapper {
+  width: 1000px;
+}
+
 h1 {
   text-align: left;
   text-transform: lowercase;
@@ -11,5 +15,17 @@ h1 {
 }
 
 .image-container1 {
-  background-image: url(12.png);
+  display: block;
+  width: 600px;
+  margin-left: 400px;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a {
+  text-decoration: none;
+  color: dimgrey;
+  font-size: 16px;
 }
