@@ -1,0 +1,44 @@
+html {
+  background-color: #F4E3F2;
+}
+
+#Header {
+  text-transform: lowercase;
+  font-size: 55px;
+  text-align: left;
+  color: dimgrey;
+  margin-left: 15px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  font-family: Trebuchet;
+  color: rgba(105,105,105,0.8);
+  text-align: center;
+  text-transform: none;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+#portfolio {
+  margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+a:hover {
+  color: hotpink;
+}
