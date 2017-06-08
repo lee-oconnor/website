@@ -28,57 +28,35 @@ a:hover {
   color: hotpink;
 }
 
-.image-container1 {
+.image-container {
   float: left;
   width: 600px;
   height: 600px;
   margin: 15px;
   border: 1px solid black;
+}
+
+.image-container1 {
   background-image: url(1.png);
 }
 
 .image-container2 {
-  float: left;
-  width: 600px;
-  height: 600px;
-  margin: 15px;
-  border: 1px solid black;
   background-image: url(2.png);
 }
 
 .image-container3 {
-  float: left;
-  width: 600px;
-  height: 600px;
-  margin: 15px;
-  border: 1px solid black;
   background-image: url(3.png);
 }
 
 .image-container4 {
-  float: left;
-  width: 600px;
-  height: 600px;
-  margin: 15px;
-  border: 1px solid black;
   background-image: url(4.png);
 }
 
 .image-container5 {
-  float: left;
-  width: 600px;
-  height: 600px;
-  margin: 15px;
-  border: 1px solid black;
   background-image: url(5.png);
 }
 
 .image-container6 {
-  float: left;
-  width: 600px;
-  height: 600px;
-  margin: 15px;
-  border: 1px solid black;
   background-image: url(6.png);
 }
 
@@ -86,121 +64,71 @@ a:hover {
 
 @media all and (min-width: 481px) {
 
-  .image-container1 {
+  .image-container {
     float: left;
     width: 600px;
     height: 600px;
     margin: 15px;
     border: 1px solid black;
+  }
+
+  .image-container1 {
     background-image: url(1.png);
   }
 
   .image-container2 {
-    float: left;
-    width: 600px;
-    height: 600px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(2.png);
   }
 
   .image-container3 {
-    float: left;
-    width: 600px;
-    height: 600px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(3.png);
   }
 
   .image-container4 {
-    float: left;
-    width: 600px;
-    height: 600px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(4.png);
   }
 
   .image-container5 {
-    float: left;
-    width: 600px;
-    height: 600px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(5.png);
   }
 
   .image-container6 {
-    float: left;
-    width: 600px;
-    height: 600px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(6.png);
   }
-
 }
 
 @media all and (max-width: 480px) {
 
-  .image-container1 {
+  .image-container {
     float: left;
     width: 300px;
     height: 300px;
     margin: 15px;
     border: 1px solid black;
-    background-image: url(1.png);
     background-size: cover;
+  }
+
+  .image-container1 {
+    background-image: url(1.png);
   }
 
   .image-container2 {
-    float: left;
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(2.png);
-    background-size: cover;
   }
 
   .image-container3 {
-    float: left;
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(3.png);
-    background-size: cover;
   }
 
   .image-container4 {
-    float: left;
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(4.png);
-    background-size: cover;
   }
 
   .image-container5 {
-    float: left;
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(5.png);
-    background-size: cover;
   }
 
   .image-container6 {
-    float: left;
-    width: 300px;
-    height: 300px;
-    margin: 15px;
-    border: 1px solid black;
     background-image: url(6.png);
-    background-size: cover;
   }
 }
