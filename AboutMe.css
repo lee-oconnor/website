@@ -8,6 +8,8 @@ html {
   text-align: left;
   color: dimgrey;
   margin-left: 15px;
+  margin-top: 45px;
+  margin-bottom: 15px;
 }
 
 img {
@@ -45,10 +47,21 @@ a:hover {
 }
 
 .homepage-link {
-  line-height: 40px;
+  margin-top: 35px;
   margin-left: 15px;
+  font-size: 16px;
+  color: dimgrey;
 }
 
 .gallery-link {
   margin-left: 15px;
+  font-size: 16px;
+  color: dimgrey;
+  line-height: 40px;
+}
+
+.contact-link {
+  margin-left: 15px;
+  font-size: 16px;
+  color: dimgrey;
 }
