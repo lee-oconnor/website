@@ -2,6 +2,7 @@ html {
   background-color: #F4E3F2;
 }
 
+
 h1 {
   text-align: left;
   text-transform: lowercase;
@@ -51,4 +52,18 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+@media all and (max-width: 480px) {
+
+
+  .contact-container {
+    float: left;
+    text-align: left;
+    margin-left: -28px;
+    padding-left: 0px;
+    padding-right: 60px;
+    font-weight: bold;
+  }
+
 }
