@@ -33,7 +33,7 @@ img {
 }
 
 #Header {
-  padding-bottom: 5px;
+  padding-bottom: -5px;
 }
 
 a {
@@ -47,7 +47,7 @@ a:hover {
 }
 
 .links {
-  margin-top: 35px;
+  margin-top: 10px;
   margin-left: 5px;
   font-size: 16px;
   color: dimgrey;
@@ -63,11 +63,7 @@ ul {
   float: left;
 }
 
-
-
-
 @media all and (max-width: 480px) {
-
 
   .paragraph {
     float: left;

@@ -45,3 +45,20 @@ a {
   font-size: 16px;
   color: dimgrey;
 }
+
+@media all and (max-width: 480px){
+
+img {
+  float: left;
+  max-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+}

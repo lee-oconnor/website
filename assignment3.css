@@ -62,7 +62,7 @@ a:hover {
 
 
 
-@media all and (min-width: 481px) {
+@media all and (min-width: 480px) {
 
   .image-container {
     float: left;
@@ -128,5 +128,9 @@ a:hover {
 
   .image-container6 {
     background-image: url(6.png);
+  }
+
+  a {
+    font-weight: bold;
   }
 }
