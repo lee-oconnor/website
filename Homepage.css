@@ -12,7 +12,7 @@ h1 {
   margin-bottom: 15px;
 }
 
-.image-container1 {
+.image-container {
   width: 600px;
   margin-left: 400px;
 }
@@ -46,18 +46,29 @@ a {
   color: dimgrey;
 }
 
-@media all and (max-width: 480px){
-
-.image {
-  float: left;
-  max-width: 300px;
-
+ul{
+  list-style-type: none;
 }
 
+@media all and (max-width: 480px){
 
+  .image-container {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+  }
 
+  .links {
+    float: left;
+    font-weight: bold;
+  }
 
-
+  #image {
+    width: 300px;
+    float:left;
+    margin-left: 23px;
+  }
 
 
 
